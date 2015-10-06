@@ -1,0 +1,49 @@
+
+/*******************
+	General styling
+*******************/
+
+body {
+	font-family: sans-serif;
+}
+
+p {
+	margin-top: .5em;
+	padding: 1em;
+	color: #111;
+	font-style: italic;
+	letter-spacing: 3px;
+	text-shadow: 2px 2px 0 #fff;
+}
+
+.wrapper {
+	text-align: center;
+	margin: 0 auto;
+}
+
+#chord {
+	display: inline-block;
+	margin-top: -390px;
+}
+
+.circle {
+	height: 15px;
+	width: 15px;
+	background-color: #444;
+	border-radius: 50%;background: radial-gradient(circle at 5px 10px, #111, #ddd);
+}
+
+.handle {
+	margin-left: -12.5px;
+	width: 40px;
+	height: 100px;
+	border-radius: 30px;
+	background: radial-gradient(circle at 40px 40px, #5cabff, #112fbf);
+	box-sizing: border-box;
+	border-right: 1px solid #ddd;
+}
+
+.lightsOut {
+	background-color: #111;
+}
+
